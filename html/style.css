@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+.header {
+    border-bottom: 1px solid #A1A1A1;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header__nav__menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.banner {
+    background-image: url(./imeges/Rectangle\ \(1\).png);
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__content {
+    text-align: center;
+    color: white;
+}
+
+.banner__content h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin: 20px 0 60px;
+}
+
+.banner__content p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.banner__content button {
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    color: white;
+    padding: 10px 36px;
+    border: none;
+}
+/*-------------------- abous us ------------------------------*/
+.about__us {}
+.about__us h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+}
+.about__us p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+.about__us__boxs{
+    display: flex;
+    justify-content: space-between;
+}
+.about__us_box{
+    display: flex;
+    align-items: center;
+    column-gap: 27px;
+}
+
+
+
